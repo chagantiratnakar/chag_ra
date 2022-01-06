@@ -1,0 +1,13 @@
+l=[]   #creating a empty list where in required numbers are filled
+
+
+#checking divisibility in range of given numbers
+
+for i in range(2000,3200):
+    if i%7==0:
+        if i%5!=0:
+            l.append(i)
+
+            
+print(l)
+len(l)
