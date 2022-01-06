@@ -1,0 +1,4 @@
+FName=input('enter your full name:')   #enter ur full name
+FName_s=FName.split()
+
+print('reversed name is',FName_s[0],' ',FName_s[1])  #printing reversed name
